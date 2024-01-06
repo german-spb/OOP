@@ -1,7 +1,7 @@
 image: Ubuntu1804 # образ для сборки
 stack: node 12 # окружение
-branches:
-only:
+branch:
+  only:
 - main # ветка git
 cache: node_modules # кеширование
 install:
